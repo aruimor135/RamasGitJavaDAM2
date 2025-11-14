@@ -21,6 +21,6 @@ public class Main {
 		int suma = bolas.stream().mapToInt(Integer::intValue).sum();
 		System.out.println("Suma de principales: " + suma);
 
-		System.out.println("Mensaje diferente en MAIN");
+		System.out.println("MENSAJE EN RAMA CONFLICTO");
 	}
 }
